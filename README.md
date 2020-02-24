@@ -9,6 +9,7 @@
 
 
 ## Get Required Data from 
+
 * Open https://console.developers.google.com/apis/credentials
 * After creating project or if you already have one.
 * Click create credentials.
@@ -32,7 +33,26 @@
 * Copy the refresh token and paste in Line 6 of [workers.js](https://github.com/ParveenBhadooOfficial/Create-Google-Shared-Drive/blob/master/workers.js) along with your own Client ID and Secret at Line 4 and Line 5.
 * Copy the Code and paste it into https://workers.cloudflare.com Site.
 
+## For new users (What to do at Cloudflare exactly)
+
+* Create an account at [Cloudflare.com](https://www.cloudflare.com)
+* Click on `Workers` and Select `Free Plan`. (Right side of main Dashboard)
+* Setup an username if you're new, i.e. `<username>.workers.dev`
+* While `<username>.workers.dev` won't display anything when accessed using a browsers you can create `*.<username>.workers.dev` where * can be anything without using dots.
+* Click on create a worker and paste your code in it. rename the worker as you like, it can be anything.
+* Click on Deploy. (Your work is done, next steps are if you're linking `custom domain`.
+* Add a domain or open `dns` if already added.
+* Add an `A` Record with your desired name (for `example.com` it is `@` and for `mysite.example.com` it is `mysite`) with IP Address `192.2.0.1` make sure Proxy is on i.e. the Cloud color should be `Orange`.
+* Now click on `Workers` in Menu.
+* Click on `Add Route`.
+* Enter your custom website you selected above, for us here it will be `example.com/*` or `mysite.example.com/*`, don't forget to add `/*` or pages like `mysite.example.com/anything` will not work.
+* Select the worker you just deployed.
+* Click on Save.
+
+Note: Replace `example.com` here with your own domain name.
+
 ## Credits
+
 * Theme from [Colorlib](https://colorlib.com)
 * Source: [yyuueexxiinngg](https://github.com/yyuueexxiinngg/some-scripts/blob/master/workers/google/drive/create-share-teamdrive.js)
 * Special Thanks: [donwa](https://github.com/donwa/goindex)
