@@ -44,7 +44,9 @@
 * Add a domain or open `dns` if already added.
 
 <div align="center">
+
 [![DNS and Workers](https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Create-Google-Shared-Drive@master/dns-workers.png)](https://github.com/ParveenBhadooOfficial/Create-Google-Shared-Drive)
+
 </div>
 
 * Add an `A` Record with your desired name (for `example.com` it is `@` and for `mysite.example.com` it is `mysite`) with IP Address `192.2.0.1` make sure Proxy is on i.e. the Cloud color should be `Orange`.
@@ -52,7 +54,9 @@
 * Click on `Add Route`.
 
 <div align="center">
+
 [![Route](https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Create-Google-Shared-Drive@master/route.png)](https://github.com/ParveenBhadooOfficial/Create-Google-Shared-Drive)
+
 </div>
 
 * Enter your custom website you selected above, for us here it will be `example.com/*` or `mysite.example.com/*`, don't forget to add `/*` or pages like `mysite.example.com/anything` will not work.
