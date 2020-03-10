@@ -2,7 +2,7 @@
   <h2>Create Google Shared Drive</h2><br />
 
 
-[![Create-Google-Shared-Drive](https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Create-Google-Shared-Drive@master/screenshot.png)](https://github.com/ParveenBhadooOfficial/Create-Google-Shared-Drive)
+[![Create-Google-Shared-Drive](https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Create-Google-Shared-Drive@master/screen-shot.png)](https://github.com/ParveenBhadooOfficial/Create-Google-Shared-Drive)
 
 
 </div>
