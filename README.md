@@ -10,6 +10,8 @@
 
 ## Get Required Data from 
 
+Note: `You must have permissions to create shared drive in your account. This doesn't work with GMAIL Accounts, Required Gsuite Business+ Accounts. To check Open Google Drive and try to create Shared Drive first.`
+
 * Open [Google Cloud Console](https://console.developers.google.com/apis/credentials)
 * After creating project or if you already have one.
 * Enable Drive API from [Here](https://console.developers.google.com/apis/library/drive.googleapis.com?q=drive)
