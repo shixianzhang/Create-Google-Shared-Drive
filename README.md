@@ -12,6 +12,17 @@
 
 Note: `You must have permissions to create shared drive in your account. This doesn't work with GMAIL Accounts, Required Gsuite Business+ Accounts. To check Open Google Drive and try to create Shared Drive first.`
 
+### Easy and Automatic Way
+
+* Open https://codedri.ve.workers.dev
+* Authenticate
+* Generate Code
+* Copy values from `client_id: '', client_secret: '', refresh_token: ''`.
+* Copy the refresh token and paste in Line 6 of [workers.js](https://github.com/ParveenBhadooOfficial/Create-Google-Shared-Drive/blob/master/workers.js) along with your own Client ID and Secret at Line 4 and Line 5.
+* Copy the Code and paste it into https://workers.cloudflare.com Site.
+
+### Manual and Difficult
+
 * Open [Google Cloud Console](https://console.developers.google.com/apis/credentials)
 * After creating project or if you already have one.
 * Enable Drive API from [Here](https://console.developers.google.com/apis/library/drive.googleapis.com?q=drive)
