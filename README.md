@@ -18,7 +18,7 @@ Note: `You must have permissions to create shared drive in your account. This do
 * Authenticate
 * Generate Code
 * Copy values from `client_id: '', client_secret: '', refresh_token: ''`.
-* Copy the refresh token and paste in Line 6 of [workers.js](https://github.com/ParveenBhadooOfficial/Create-Google-Shared-Drive/blob/master/workers.js) along with your own Client ID and Secret at Line 4 and Line 5.
+* Paste them in Line 4,5 and 6 at [workers.js](https://github.com/ParveenBhadooOfficial/Create-Google-Shared-Drive/blob/master/workers.js).
 * Copy the Code and paste it into https://workers.cloudflare.com Site.
 
 ### Manual and Difficult
