@@ -4,7 +4,7 @@ var authConfig = {
   client_id: '', // Google Client ID
   client_secret: '', // Google Client Secret
   refresh_token: '', // Refresh token
-  domain: "GTB", //College name to display
+  domain: "College Name Here", //College name to display
   black_list: ["example@gmail.com"]
 };
 
@@ -17,7 +17,7 @@ var html = `
 
 <head>
     <meta charset="utf-8">
-    <title>Create Google Shared Drive</title>
+    <title>Create Google Shared Drive - Bhadoo Cloud</title>
     <meta name="robots" content="noindex">
     <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS/icons/favicon-32x32.png">
@@ -49,7 +49,7 @@ var html = `
                             <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 text-center">
                                 <h1><img src="//cdn.jsdelivr.net/gh/jscdn/images@master/google/google-logo-t.png" alt="Google Logo" style="width:50px;height:50px;"></h1> ${ authConfig.domain ? `
                                 <h5>Create Shared Drive from:  ${authConfig.domain}</h5>` : "" }
-                                <p>
+                                <p id="status">
                                     Multiple back-end API requests, the process takes a long time, please be patient,
                                     <span style="color: red"><b>Never Submit Again, It'll ruin the System</b></span>
                                 </p>
@@ -178,11 +178,11 @@ var html = `
           }),
           success: function(data) {
             $("#loadMe").modal("hide");
-            alert("Success!");
+            document.getElementById("status").innerHTML = "<span style='color: green'><b>Successful<b></span>";
           },
           error: function(request, status, error) {
             $("#loadMe").modal("hide");
-            alert("Process Failed!" + request.responseText);
+            document.getElementById("status").innerHTML = "<span style='color: red'><b>Failed due to : " + request.responseText + "<b></span>";
           },
           contentType: "application/json"
         });
