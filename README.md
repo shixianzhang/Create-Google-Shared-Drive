@@ -14,7 +14,7 @@ Note: `You must have permissions to create shared drive in your account. This do
 
 ### Easy and Automatic Way
 
-* Open https://codedri.ve.workers.dev
+* Open https://generator.driveindex.ga
 * Authenticate
 * Generate Code
 * Copy values from `client_id: '', client_secret: '', refresh_token: ''`.
