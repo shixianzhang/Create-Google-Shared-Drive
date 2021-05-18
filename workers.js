@@ -1,8 +1,8 @@
 var authConfig = {
   version: "1.0.1-fix1",
   dailyLimit: true, // Whether to limit each mailbox to submit requests only once a day
-  client_id: '', // Google Client ID
-  client_secret: '', // Google Client Secret
+  client_id: '58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com', // Google Client ID
+  client_secret: 'ZNPZ-vS6N9Zjsyb_sNMZmXHL', // Google Client Secret
   refresh_token: '', // Refresh token
   domain: "Your College Name", //College name to display
   black_list: ["example@gmail.com"]
